@@ -65,7 +65,7 @@ h1 {
 }
 
 #ball1 {
-  background-image: url(./img/cat1.jpeg);
+  background-image: url(../img/cat1.jpeg);
   background-size: cover;
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 #ball2 {
-  background-image: url(./img/cat2.jpeg);
+  background-image: url(../img/cat2.jpeg);
   background-size: cover;
 }
 
@@ -85,7 +85,7 @@ h1 {
 }
 
 #ball3 {
-  background-image: url(./img/cat3.jpeg);
+  background-image: url(../img/cat3.jpeg);
   background-size: cover;
 }
 
@@ -95,7 +95,7 @@ h1 {
 }
 
 #ball4 {
-  background-image: url(./img/cat4.jpeg);
+  background-image: url(../img/cat4.jpeg);
   background-size: cover;
 }
 
@@ -105,7 +105,7 @@ h1 {
 }
 
 #ball5 {
-  background-image: url(./img/cat5.jpeg);
+  background-image: url(../img/cat5.jpeg);
   background-size: cover;
 }
 

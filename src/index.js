@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./css/styles.css";
 
 import templateApp from "./hbs/app.hbs";
 import templateMoment from "./hbs/moment.hbs";
