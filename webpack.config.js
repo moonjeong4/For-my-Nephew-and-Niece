@@ -31,7 +31,7 @@ const config = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif)$/,
         type: "asset/resource",
       },
     ],
