@@ -1,8 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
-// const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-// const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const config = {
   entry: "./src/index.js",
@@ -46,29 +44,9 @@ const config = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         type: "asset/resource",
-        // use: [
-        //   {
-        //     loader: "file-loader",
-        //     options: {
-        //       name: "[name].[ext]",
-        //       outputPath: "img/",
-        //       publicPath: "../img/",
-        //     },
-        //   },
-        // ],
       },
     ],
   },
-  // plugins: [
-  //   new CopyWebpackPlugin({
-  //     patterns: [
-  //       {
-  //         from: "src/img",
-  //         to: "img",
-  //       },
-  //     ],
-  //   }),
-  // ],
 };
 
 module.exports = config;
